@@ -1,0 +1,111 @@
+  101  cd /home/murray
+  102  find Hello_world.c
+  103  ls
+  104  cd /mnt/scratch-lustre/student07
+  105  mkdir CTA200_2023
+  106  cd /mnt/scratch-lustre/student07/CTA200_2023
+  107  mkdir assignment_1
+  108  ls
+  109  touch README.md
+  110  ls
+  111  echo 'CTA200 2023' >> README.md
+  112  cat README.md
+  113  cp /hello/murray/Hello_world.c
+  114  cp --help
+  115  ls
+  116  ssh cosmo3
+  117  ls
+  118  cd /mnt/scratch-lustre/student07
+  119  ls
+  120  cd /mnt/scratch-lustre/student07/CTA200_2023
+  121  ls
+  122  history
+  123  cd /mnt/scratch-lustre/student07/CTA200_2023/assignment1
+  124  cd /mnt/scratch-lustre/student07/CTA200_2023/assignment_1
+  125  ls
+  126  cp Hello_world.c ~CTA200_2023
+  127  cp /home/murray/Hello_world.c ~CTA200_2023
+  128  ls
+  129  CTA200_2023 mv Hello_world_acharya.c
+  130  ~/rename-files$ mv ~CTA200_2023 Hello_world_acharya.c
+  131  mv ~CTA200_2023 Hello_world_acharya.c
+  132  ls
+  133  cp /home/murray/Hello_world.py Hello_world_acharya.py
+  134  ls
+  135  ssh cosmo3
+  136  history
+  137  ls
+  138  cd /mnt/scratch-lustre/student07/CTA200_2023/assignment_1
+  139  ls
+  140  module load gcc/5.4.0
+  141  gcc Hello_world_acharya.c -o Hello_world.x
+  142  ls
+  143  Hello_world.x
+  144  & .\"Hello_world".x
+  145  &.\"Hello_world".x
+  146  ./Hello_world.x
+  147  ./Hello_world.py
+  148  ./Hello_world_acharya.py
+  149  module load python/3.10.2
+  150  ./Hello_world_acharya.py
+  151  python Hello_world_acharya.py
+  152  vim Hello_world_acharya.c
+  153  ssh cosmo3
+  154  python Hello_world_acharya.py
+  155  load module python/3.10.2
+  156  module load python/3.10.2
+  157  python Hello_world_acharya.py
+  158  cd /mnt/scratch-lustre/student07/CTA200_2023/assignment_1
+  159  python Hello_world_acharya.py
+  160  vi Hello_world_acharya.py
+  161  ssh cosmo 3
+  162  ssh cosmo3
+  163  cd /mnt/scratch-lustre/student07/CTA200_2023/assignment_1
+  164  ls
+  165  vim Hello_world_acharya.c
+  166  :/Hello_world_acharya.c
+  167  ./Hello_world.x
+  168  ./Hello_world_acharya.c
+  169  vim Hello_world_acharya.py
+  170  cd /mnt/scratch-lustre/student07/CTA200_2023/assignment_1
+  171  ls
+  172  module load python/3.10.2
+  173  python Hello_world_acharya.py
+  174  vi Hello_world_acharya.py
+  175  python Hello_world_acharya.py
+  176  ./Hello_world_acharya.c > output_c.txt
+  177  ./Hello_world_acharya.c
+  178  ./Hello_world.x > output_c.txt
+  179  ls
+  180  python Hello_world_acharya.py > output_python.txt
+  181  ls
+  182  output_c.txt
+  183  cat output_c.txt
+  184  rv output_c.txt
+  185  module load gcc/5.4.0
+  186  ./Hello_world_acharya.c
+  187  gcc Hello_world_acharya.c -o Hello_world.x 
+  188  ./Hello_world.x
+  189  vim Hello_world_acharya.c
+  190  ./Hello_world.x
+  191  gcc Hello_world_acharya.c -o Hello_world.x 
+  192  ./Hello_world.x
+  193  vim Hello_world_acharya.c
+  194  gcc Hello_world_acharya.c -o Hello_world.x 
+  195  vim Hello_world_acharya.c
+  196  gcc Hello_world_acharya.c -o Hello_world.x 
+  197  ./Hello_world.x
+  198  python Hello_world_acharya.py
+  199  python Hello_world_acharya.py >> output_python.py
+  200  python Hello_world_acharya.py >> output_python.txt
+  201  ls
+  202  rm output_python.py
+  203  ls
+  204  ./Hello_world.x >> output_c.txt
+  205  cat output_c.txt
+  206  cat output_python.txt
+  207  python Hello_world_acharya.py > output_python.txt
+  208  cat output_python.txt
+  209  ./Hello_world.x > output_c.txt
+  210  cat output_c.txt
+  211  history > history.txt
